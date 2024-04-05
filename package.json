@@ -1,10 +1,13 @@
 {
-  "name": "pz_04todo_list_app",
+  "name": "pz_todo_list_app",
   "version": "1.0.4",
   "description": "This is simple todo_list_app",
   "main": "index.js",
   "type": "module",
   "bin": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
