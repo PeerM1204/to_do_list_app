@@ -1,10 +1,12 @@
 {
-  "name": "pz_todo_list_app",
-  "version": "1.0.4",
-  "description": "This is simple todo_list_app",
+  "name": "pz04-todo-cli",
+  "version": "2.0.7",
+  "description": "Simple todo list CLI tool",
   "main": "index.js",
   "type": "module",
-  "bin": "index.js",
+  "bin": {
+    "pz04-todo-cli": "index.js"
+  },
   "publishConfig": {
     "access": "public"
   },
@@ -12,7 +14,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Peer Saab",
+  "author": "PeerSaab",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^9.2.17"
